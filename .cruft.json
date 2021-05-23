@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/ingenii-solutions/terraform-module-template.git",
-  "commit": "2d6e72509fd4cdcc14bb357878439f0daedb7bcb",
+  "commit": "8201eaf10cbeb7b32d89effdf141c20f1d0a7428",
   "checkout": null,
   "context": {
     "cookiecutter": {
