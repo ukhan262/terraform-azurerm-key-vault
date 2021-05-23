@@ -1,0 +1,19 @@
+{
+  "template": "https://github.com/ingenii-solutions/terraform-module-template.git",
+  "commit": "1ea0245f2988622fb1a9adcf169bad900dd5bec6",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "github_organization": "ingenii-solutions",
+      "provider_name": "azurerm",
+      "module_name": "key-vault",
+      "project_dir": "terraform-azurerm-key-vault",
+      "_copy_without_render": [
+        ".github/workflows/unit-tests.yml",
+        ".github/workflows/static-code-analysis.yml"
+      ],
+      "_template": "https://github.com/ingenii-solutions/terraform-module-template.git"
+    }
+  },
+  "directory": null
+}
