@@ -1,14 +1,6 @@
-## 0.1.0 (Unreleased)
+## 0.0.1
 
 NEW FEATURES:
 
-* **Feature 1:** _feature description_
-
-BUG FIXES:
-
-* **Fix 1:** _bug fix description_
-
-IMPROVEMENTS:
-
-* **Improvement 1:** _improvement fix description_
-
+* **General:** A working deployment of the Azure Key Vault.
+* **General:** Ability to assign permissions.
