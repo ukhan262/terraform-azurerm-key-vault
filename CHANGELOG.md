@@ -2,7 +2,7 @@
 
 IMPROVEMENTS:
 
-* **Tempalte Update:** Updating to the latest Cruft template.
+* **Template Update:** Updating to the latest Cruft template.
 
 
 ## 0.0.2
