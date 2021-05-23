@@ -1,3 +1,10 @@
+## 0.0.3
+
+IMPROVEMENTS:
+
+* **Tempalte Update:** Updating to the latest Cruft template.
+
+
 ## 0.0.2
 
 BUG FIXES:
