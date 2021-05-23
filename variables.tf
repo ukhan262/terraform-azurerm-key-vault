@@ -10,7 +10,7 @@ variable "name" {
   type        = string
   description = "The name of the Azure Key Vault."
   validation {
-    condition     = length(var.name) > 3 && length(var.name) < 24
+    condition     = length(var.name) >= 3 && length(var.name) <= 24
     error_message = "The name of the Azure Key Vault should be between 3 and 24 characters."
   }
 }
