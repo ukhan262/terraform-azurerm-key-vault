@@ -83,7 +83,12 @@ variable "key_vault_network_acls" {
     virtual_network_subnet_ids = list(string)
   })
   description = "Requires a custom object with attributes 'bypass', 'default_action', 'ip_rules', 'virtual_network_subnet_ids'."
-  default     = null
+  default = {
+    bypass                     = "Azure Services"
+    default_action             = "Allow"
+    ip_rules                   = []
+    virtual_network_subnet_ids = []
+  }
 }
 
 variable "contacts" {
